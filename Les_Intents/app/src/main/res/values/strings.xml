@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Les_Intents</string>
+    <string name="view_hello">Veillez taper vous connecter</string>
+    <string name="votre_pseudo">Votre pseudo</string>
+    <string name="votre_mot_de_passe">Votre mot de passe</string>
+    <string name="view_logo">Bienvenue sur Bombilafou!</string>
+    <string name="Se_connecter">Se Connecter</string>
+    <string name="Titre">Bienvenue à votre page perso</string>
+    <string name="welcome">Bonjour</string>
+    <string name="byebye">Se Deconnecter</string>
+    <string name="Visite">Visiter bombilafou.com</string>
+</resources>
