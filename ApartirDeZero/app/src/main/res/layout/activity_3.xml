@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myPrincipale_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity3">
+
+
+    <TextView
+        android:id="@+id/view_titre"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/magenta"
+        android:gravity="center"
+        android:text="@string/maTxtView"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/view_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:text="@string/intro"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/linear_1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_trimestre1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#707070"
+            android:gravity="center"
+
+            android:text="@string/premier_trimestre"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst1_btn1"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:autofillHints=""
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst1_btn2"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:autofillHints=""
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst1_btn3"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst1_btn4"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst1_btn5"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst1_btn6"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst1_btn7"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_trimestre2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#707070"
+            android:gravity="center"
+
+            android:text="@string/deuxieme_trimestre"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst2_btn1"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst2_btn2"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst2_btn3"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst2_btn4"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst2_btn5"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst2_btn6"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst2_btn7"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_trimestre3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#707070"
+            android:gravity="center"
+
+            android:text="@string/troisiem_trimestre"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst3_btn1"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst3_btn2"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst3_btn3"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst3_btn4"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst3_btn5"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst3_btn6"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/trmst3_btn7"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/border_bouton"
+            android:gravity="center"
+            android:hint="@string/notes"
+            android:inputType="number"
+            android:textColor="@color/white"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/view_explicative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/explicative"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_rst1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_view_rst1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/magenta"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/trimestre1"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxt_rst_1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/resulta_drw"
+            android:gravity="center"
+            android:hint="@string/resultat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_rst2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_view_rst2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#707070"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/trimestre2"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxt_rst_2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/resulta_drw"
+            android:gravity="center"
+            android:hint="@string/resultat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_rst3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_view_rst3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#707070"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/trimestre3"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etxt_rst_3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/resulta_drw"
+            android:gravity="center"
+            android:hint="@string/resultat"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_final_rslt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_v_final_rslt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="#707070"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/tout_trimestre"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtxt_v_final_rslt"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/resulta_drw"
+            android:gravity="center"
+            android:hint="@string/resultat"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reinitialiser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/Reinitaliser" />
+
+</LinearLayout>

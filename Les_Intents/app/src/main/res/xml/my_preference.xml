@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:title="Réseau"></PreferenceCategory>
-    <PreferenceCategory android:title="Luminosité"></PreferenceCategory>
-    <PreferenceCategory android:title="Couleurs"></PreferenceCategory>
-    <CheckBoxPreference
-        android:key="checkBoxPref"
-        android:title="Titre"
-        android:summaryOn="Résumé quand sélectionné"
-        android:summaryOff="Résumé quand pas sélectionné"
-        android:defaultValue="true"
-        />
-
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Une Catégorie -->
+    <!-- Une boîte de dialogue -->
+    <PreferenceCategory android:title="Simple Preference">
+        <CheckBoxPreference
+            android:key="@string/checkbox"
+            android:title="A checkBox preference :"
+            android:summary="Check or uncheck"
+            />
+        <RingtonePreference
+            android:key="@string/ringtone"
+            android:title="Ring tone preference"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="Choose a ringTone"
+            />
+        <!-- Une Catégorie -->
+    </PreferenceCategory>
+    <!-- Une Catégorie -->
+    <PreferenceCategory android:title="more details (another category)">
+        <!-- Un autre écran de préférence-->
+        <PreferenceScreen
+            android:key="detail"
+            android:title="Details"
+            android:summary="More details on another screen">
+            <CheckBoxPreference
+                android:key="@string/checkbox2"
+                android:title="Another checkBox"
+                android:summary="On or Off"
+                />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <!-- Une Catégorie -->
+    <PreferenceCategory android:title="Others simples preferences(another category)">
+        <EditTextPreference
+            android:key="@string/text"
+            android:title="Text editor dialog"
+            android:summary="Click to open an editor field"
+            android:dialogTitle="Any text is ok"
+            />
+        <ListPreference
+            android:key="@string/list"
+            android:title="Choice dialog"
+            android:summary="Click to open a list of choices"
+            android:entries="@array/i_like_array"
+            android:dialogTitle="Choose what you like" />
+    </PreferenceCategory>
 </PreferenceScreen>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ApartirDeZero</string>
+    <string name="hello">Bonjour %1$s, vous avez %2$d ans.</string>
+    <string name="titre"></string>
+    <string name="MonDeuxièmetitre">Taille:</string>
+    <string name="titre2">Paragraphe entièrement en Java</string>
+    <string name="checkBox">Button a cocher</string>
+    <string name="i_poids">Poids:</string>
+    <string name="i_taille">Taille</string>
+    <string name="i_metre">Métre</string>
+    <string name="i_centimetre">Centimètre</string>
+    <string name="imc_cl">Calculer l\'IMC</string>
+    <string name="raz_cl">RAZ</string>
+    <string name="i_resultat">Resultat:</string>
+    <string name="i_guide_txt">Vous devez cliquer sur le bouton<b /> pour optenir un résultat</string>
+    <string name="button">Apuyez ici</string>
+    <string name="iPoids">Poids</string>
+    <string name="roman">Ecrire un Roman
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </string>
+    <string name="ButtonTest">Ceci est l\'histoire de <b>\"Leyssare Bourou\ "</b> elle est belle non?</string>
+    <string name="maTxtView">Calculer la moyenne de notes de éleves de 4em </string>
+    <string name="intro">Voici les notes d\'un élèves de quantrième lors de trois examens passé</string>
+    <string name="premier_trimestre">1.Trimestre: </string>
+    <string name="deuxieme_trimestre">2.Trimestre: </string>
+    <string name="troisiem_trimestre">3.Trimestre: </string>
+    <string name="explicative">Calculer la moyenne de chaque trimestre de l élève, et totaliser les trois trimestre et calculer la moyenne pour les trois trimestres</string>
+    <string name="trimestre1">Moyens T1: </string>
+    <string name="trimestre2">Moyens T2: </string>
+    <string name="trimestre3">Moyens T3: </string>
+    <string name="tout_trimestre">Totale des M</string>
+    <string name="notes">00</string>
+
+    <string name="resultat">Resultat ici</string>
+    <string name="Reinitaliser">Reinitialiser</string>
+
+</resources>

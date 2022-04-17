@@ -15,9 +15,11 @@ import android.widget.TextView;
 public class AutreActivity extends AppCompatActivity {
 
         private LinearLayout mLayout1;
-        private Button mDeconnecter,mVisiteSite;
+        private Button mDeconnecter,mVisiteSite, mDialogButton;
         public final static String BUTTONS = "DEUXIÈME_ACTIVITY";
         public final static int ACTIVITY_ID = 1;
+        public static final String ACTION_CALL_HIM = "tel:05 05 05 05 05";
+        public static final String ACTION_RESEARCH = "http://www.bombilafou.com";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +29,8 @@ public class AutreActivity extends AppCompatActivity {
         mLayout1 = (LinearLayout)findViewById(R.id.my_layout);
         mDeconnecter = (Button) findViewById(R.id.SeDeconnecter);
         mVisiteSite = (Button) findViewById(R.id.Visiter_site);
+        mDialogButton = (Button) findViewById(R.id.file_dialog);
+
         EditText recupText = new EditText(this);
 
         Intent my_intent = getIntent();
@@ -52,9 +56,18 @@ public class AutreActivity extends AppCompatActivity {
         mVisiteSite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri bombilafou = Uri.parse("tel:06-06-24-46-78");
-                Intent visiter_bombilafou = new Intent(Intent.ACTION_DIAL,bombilafou);
+                Uri bombilafou = Uri.parse(ACTION_RESEARCH);
+                Intent visiter_bombilafou = new Intent(Intent.ACTION_SEARCH);
                 startActivity(visiter_bombilafou);
+
+            }
+        });
+
+        mDialogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intnet = new Intent(AutreActivity.this, PreferenceActivity.class);
+                startActivity(intnet);
 
             }
         });
